@@ -12,3 +12,5 @@ Start server to login as admin with the credentials created
 `python manage.py startapp todolist`
 
 Add the application created on settings.py (INSTALLED APPS)
+  
+Models

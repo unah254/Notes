@@ -32,5 +32,7 @@ The files created i.e:
     ` MIDDLE_WARE` : For authentication and has a specific order
 
   . urls.py - Setting up routes. Url patterns use regular expressions.              Each app has it's own url file
-  . wsgi.py - priary development platform for django 
+  . wsgi.py - primary development platform for django 
   . manage.py - the Cli client, wrapper of django-admin. It's localised to this specific project that's used to run migrations, run dev serever e.t.c
+  . models.py - Models are created here
+  . views.py  -  Where index, details are created. Templates can be loaded here.
